@@ -1,0 +1,186 @@
+.id_site_name {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    width: 210px;
+    display: inline-block;
+    margin: 30px 80px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: purple;
+    font-weight: bold;
+}
+
+tr {
+    font-weight: bold;
+}
+
+.id_register_link,
+.id_login_link {
+    margin-left: 60vw;
+}
+
+.nav {
+    text-align: center;
+    width: fit-content;
+    margin-left: auto;
+    padding: 10px;
+    margin-top: -60px;
+}
+
+.id_header_div {
+    background-color: plum;
+    height: 100px;
+    margin-right: 1px;
+}
+
+.id_page_name {
+    margin-top: 50px;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.id_nav_profile {
+    position: absolute;
+    top: 30px;
+    width: 97%;
+    text-align: right;
+}
+
+.id_nav_profile:hover {
+    color: white;
+}
+
+#id_bio_input_text {
+    width: 400px;
+    height: 100px;
+    margin-bottom: 20px;
+    margin-left: -50px;
+}
+
+.id_profile_picture_label,
+.id_profile_picture {
+    position: relative;
+    top: 160px;
+
+}
+
+.id_user_picture {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 20px auto 0 auto;
+}
+
+.id_user_bio {
+    position: relative;
+    display: block;
+    margin: 20px auto 0 auto;
+    border: 1px black solid;
+    height: 100px;
+    max-width: 240px;
+    word-wrap: break-word;
+}
+
+.id_profile_links {
+    margin-top: 40px;
+    margin-left: 40vw;
+    position: relative;
+}
+
+.id_unfollow,
+.id_follow {
+    position: relative;
+    display: block;
+    margin-left: 8vw;
+}
+
+form {
+    margin-top: 30px;
+    margin-left: 40vw;
+}
+
+.new_post_form {
+    display: flex;
+}
+
+.my_profile_form {
+    margin-left: 40vw;
+}
+
+.id_update_profile_button {
+    width: 100px;
+    margin-top: 20px;
+}
+
+#id_new_post {
+    width: 300px;
+    height: 50px;
+}
+
+.id_post_div {
+    margin-top: 20px;
+    margin-left: 10vw;
+    font-size: large;
+    width: 80vw;
+}
+
+.id_comment_div {
+    margin-left: 20vw;
+}
+
+#id_username,
+label,
+#id_password,
+.id_login_button,
+.id_register_button,
+#id_confirm_password,
+#id_email,
+#id_first_name,
+#id_last_name {
+    font-size: 18px;
+}
+
+.id_comment_profile,
+.id_post_profile {
+    font-size: 19px;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.id_comment_text {
+    font-size: 20px;
+}
+
+.id_post_date_time,
+.id_comment_date_time {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.id_post_text {
+    width: 600px;
+    height: 90px;
+    font-size: 20px;
+}
+
+.id_post_button {
+    height: 30px;
+    margin-top: 13px;
+    margin-left: 30px;
+}
+
+.id_comment_button {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+label {
+    font-size: 18px;
+}

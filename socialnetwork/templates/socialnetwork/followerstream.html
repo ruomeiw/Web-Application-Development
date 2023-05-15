@@ -1,0 +1,26 @@
+{% extends "socialnetwork/base.html" %}
+
+{% block header %}
+<div>
+    <a href="{% url 'myprofile' %}" id="id_nav_profile" class="id_nav_profile">
+        {{user.first_name}} {{user.last_name}}
+    </a>
+
+    <div class="nav">
+        <a id="id_nav_global_stream" href="{% url 'globalstream' %}">Global</a>
+        <a id="id_nav_follower_stream" href="{% url 'followerstream' %}">Follower</a>
+        <a id="id_nav_logout" href="{% url 'logout' %}">Logout</a>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div id="id_page_name" class="id_page_name">Follower Stream</div>
+
+<div id="my-posts-go-here"></div>
+
+<script>
+    window.onload = loadPosts
+    window.setInterval(loadPosts, 5000);
+</script>
+{% endblock %}

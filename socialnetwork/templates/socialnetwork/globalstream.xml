@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE items [
+    <!ELEMENT posts (post*)>
+    <!ELEMENT post (id,text,user_id,fname,lname,date_time)>
+    <!ELEMENT id (#PCDATA)>
+    <!ELEMENT text (#PCDATA)>
+    <!ELEMENT user_id (#PCDATA)>
+    <!ELEMENT fname (#PCDATA)>
+    <!ELEMENT lname (#PCDATA)>
+    <!ELEMENT date_time (#PCDATA)>
+]>
+
+<items>
+    {% for post in posts %}
+        <item>
+            <id>{{post.id}}</id>
+            <text>{{post.text}}</text>
+            <user_id>{{post.profile.id}}</user_id>
+            <fname>{{ post.profile.first_name }}</fname>
+            <lname>{{ post.profile.last_name }}</lname>
+            <date_time>{{ post.date_time }}</date_time>
+        </item>
+    {% endfor %}
+</items>
